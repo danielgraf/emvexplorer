@@ -20,7 +20,7 @@ npm install --save-dev electron-rebuild
 
 npm-start
 
-To package it as a .app file (and you can download a prepackaged on from here : http://link.temp) :
+To package it as a .app file (and you can download a prepackaged one from here : https://github.com/danielgraf/emvexplorer/releases/tag/v1.0.0) :
 
 electron-packager . EMVexplorer --platform=darwin -ignore=node_modules --arch=x64 --version=0.35.0 --overwrite
 
