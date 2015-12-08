@@ -21,7 +21,7 @@ npm install --save-dev electron-rebuild
 
 ./node_modules/.bin/electron-rebuild
 
-npm-start
+npm start
 
 To package it as a .app file (and you can download a prepackaged one from here : https://github.com/danielgraf/emvexplorer/releases/tag/v1.0.0) :
 
