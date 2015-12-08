@@ -1,7 +1,7 @@
 # emvexplorer
 An electron desktop app to read EMV card data
 
-This app requires two compile Java JAR files in the app/java folder :
+This app requires two compiled Java JAR files in the app/java folder :
 
 emvExplorerEngine.jar
 
