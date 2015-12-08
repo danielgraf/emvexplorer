@@ -9,7 +9,7 @@ javaemvreader-0.6.1-SNAPSHOT.jar
 
 If you want to build them, you'll find the repositories under my profile.
 
-If you want the JARs as binaries you can just download them from https://github.com/danielgraf/emvExplorerEngine/releases/tag/v1.0.0 and 
+If you want the JARs as binaries you can just download them from https://github.com/danielgraf/emvExplorerEngine/releases/tag/v1.0.0 and https://github.com/danielgraf/javaemvreader/releases/tag/1.0.0 
 
 To build this electron app :
 
