@@ -25,7 +25,7 @@ emvbrowser.controller('EMVcontroller', ['$scope', '$http', '$interval', function
           $scope.cardstate = $scope.reader.getStateSync();
           $scope.cardlabel = $scope.reader.getCardlabelSync();
           $scope.readerid = $scope.reader.getReaderidSync();
-          console.log("Status is " + $scope.cardstatus);
+
       }
   };
 
@@ -33,7 +33,7 @@ emvbrowser.controller('EMVcontroller', ['$scope', '$http', '$interval', function
   {
     // Use Java
     $scope.java = require('java');
-    console.log($scope.java);
+
     $scope.java.classpath.push(__dirname + "/java/javaemvreader-0.6.1-SNAPSHOT.jar");
     $scope.java.classpath.push(__dirname + "/java/emvExplorerEngine.jar");
 
