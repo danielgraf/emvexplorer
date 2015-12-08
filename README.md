@@ -14,8 +14,11 @@ If you want the JARs as binaries you can just download them from https://github.
 To build this electron app :
 
 npm install
+
 npm install java
+
 npm install --save-dev electron-rebuild
+
 ./node_modules/.bin/electron-rebuild
 
 npm-start
